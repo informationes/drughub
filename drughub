@@ -1,0 +1,113 @@
+ [Advanced Search]
+DRUGHUB LINK | DRUGHUB MARKET | DRUGHUB URL
+
+ACCESSING DRUGHUB
+[Captcha]
+DrugHub implements a robust access system to enhance security and prevent phishing and DDoS attacks. Each user on the platform is assigned a unique access .onion address. To obtain this address, users need to visit a LDN (Link Directory Node) on either https://drughub.su or http://drughubb7lmqymhpq24wmhihloii3dlp3xlqhz356dqdvhmkv2ngf4id.onion
+
+Once on the LDN page, users will need to complete a CAPTCHA and press a button to generate a new mirror. The generated mirror is signed and should always be verified against the platform's PGP key to ensure its authenticity.
+
+Importantly, the assigned mirror is tied to each user individually, meaning only the user can access it. This adds an extra layer of protection against unauthorized access.
+
+Vendors, on the other hand, are assigned Permanent Mirrors. These mirrors are exclusively accessible by vendors and users who have established transactions on the marketplace. This eliminates the need for vendors and qualified users to fetch a new URL for each interaction, streamlining the process.
+
+CAPTCHA
+[Captcha]
+Upon accessing DrugHub, users will encounter a Captcha challenge designed to verify their human identity. Within this challenge, a transparent circle will be displayed, allowing users to view the underlying layer. The task at hand involves aligning the top circle layer with the bottom layer before the Captcha timeout bar is completely depleted. Subsequently, users may proceed by clicking the continue button in order to gain access to the marketplace.
+
+
+
+
+REGISTRATION
+
+[Registration]
+In order to complete the registration process as a customer on Drug Hub, it is necessary to possess a PGP key which will grant you access to the market. To proceed, kindly insert your PGP key in the designated box on the registration page and then click on the "continue" button. Subsequently, a PGP encrypted message shall be displayed on the subsequent page.
+
+
+PGP VALIDATION
+
+[2FA Verification]
+Please retrieve the PGP encrypted message from the designated code box provided on the subsequent page and proceed to paste it into your PGP client. After decrypting the code, you will notice that it commences with the prefix "DRUG_HUB_BUYER_REGISTRATION_yourcodehere." To verify and finalize the registration process on the market, kindly select the "continue" option.
+
+USERNAME SELECTION
+
+[Username Select]
+The username will solely serve as an identifier for vendors and will not be utilized for logging in. Once the preferred username has been entered, kindly proceed to press the "continue" button in order to finalize the registration process.
+[Complete Registration]
+
+
+
+LOGIN
+
+[Login]
+Please provide your PGP Public Key in the designated code box and select a Session timeout duration. The session timeout setting determines the period after which you will be prompted to reauthenticate to the Market. If you opt for a Session timeout of 12 hours, you will remain logged in for the entire duration unless you choose to log out manually. Kindly proceed by clicking on "Continue" to obtain your PGP validation message on the subsequent page. PGP Validation can be further referenced in the aforementioned steps. The validation code for Sign in will commence with DRUG_HUB_BUYER_SIGNIN_yourcode.
+
+
+
+ACCESSING THE MARKETPLACE
+
+
+On the left side of the screen, users will find a Categories Menu. By selecting a category, a drop-down list of sub-categories and further options will be displayed.
+
+The main body of the screen consists of tiles arranged in columns of two. Each tile provides detailed product information including an image, title, category and subcategory, price, payment options (escrow or FE), shipping details (from and to locations), vendor name, vendor feedback score, and stock availability.
+
+Located at the top of the screen is the main Navigational Menu which offers several tabs including Invoices, Orders, Vendor Chats, Support, PGP, Notifications, Shopping Cart, XMR Wallet, and Profile Settings.
+
+Users can utilize the search function located above the tiled listings. This function offers both Simple Search and Advanced Search options.
+
+Adjacent to the search function is a sorting feature that allows users to filter results based on various criteria. These include sorting by newest to oldest, oldest to newest, lowest price to highest price, highest price to lowest price, vendor rating, and listing views.
+
+
+
+PRODUCT SEARCH
+SIMPLE SEARCH
+[Simple Search]
+Using the Simple Search from the top you can enter your search phrase and press Simple Search to be shown the results.
+
+
+ADVANCED SEARCH
+Advanced Search
+The Advanced Search provides additional parameters which can be set using the additional options displayed
+
+
+
+
+
+PRODUCT LISTING
+
+[Advanced Search]
+
+The product listing page includes a comprehensive set of information that requires careful attention. This information includes the listing title, refund policy, price in both FIAT and XMR (Monero), listing type (either escrow or FE), number of listing views, stock availability, shipping location details (from/to), vendor type (escrow or FE), listing sales, dispute resolution outcomes (wins/losses), and the status of open orders (disputed or open).
+
+In addition to these details, the ordering options section encompasses shipping options, order quantity, and bulk quantity settings. This is followed by product images, as well as buttons for contacting the vendor, reporting the listing, adding it to favorites, and adding it to the cart.
+
+Once all the applicable listing options have been selected, users have the ability to press the "Add to cart" button. This allows them to either proceed with the immediate purchase of the product or add additional products to their cart. This convenient feature enables users to pay for multiple orders within a single transaction.
+
+
+
+
+
+CHECKOUT
+
+[Advanced Search]
+
+If you have chosen the "Add to cart" option for a specific listing and have proceeded to place an order, you will be presented with a screen that resembles the one depicted above. This screen provides comprehensive details regarding your order, including the PGP key of the seller. It is imperative to encrypt your order information using this specific PGP key and then paste the resulting encrypted output back into the designated Order message box. In case your cart includes multiple items from various vendors, you must repeat this process for each individual key. Upon completion, you can proceed to the Payment page by clicking on the "Continue" button
+
+[Advanced Search]
+
+Read the instructions fully and press "I understand and agree" if you fully understand the instructions.
+
+[Advanced Search]
+
+
+To ensure a successful transaction, please remit the precise amount of XMR indicated in the designated red area. The address for the payment will be authenticated with the Market key. For your convenience, you may also select the QR Code tab to display a scannable code.
+
+Prompt payment is imperative upon reaching this page, as a countdown timer of 60 minutes will commence. Failure to submit the payment within the designated timeframe will result in the cancellation of the order.
+
+
+
+PGP KEY
+[Advanced Search]
+
+By appending the extension "/market-keys" to the URL of a verified DrugHub mirror, users will be directed to a comprehensive PGP key page. This page provides users with all the necessary PGP keys for communication within the market. In order to engage with DrugHub staff members, users are required to utilize the valid PGP key associated with each staff member. This serves as an additional security measure enforced by DrugHub, ensuring that all communication takes place through PGP encryption.
+
